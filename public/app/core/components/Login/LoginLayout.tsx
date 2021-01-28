@@ -22,7 +22,9 @@ export const LoginLayout: FC = ({ children }) => {
           <Branding.LoginLogo className={loginStyles.loginLogo} />
           <div className={loginStyles.titleWrapper}>
             <h1 className={loginStyles.mainTitle}>{Branding.LoginTitle}</h1>
-            <h3 className={loginStyles.subTitle}>{Branding.GetLoginSubTitle()}</h3>
+            <h3 className={loginStyles.subTitle}>
+              Powered By <a href="https://grafana.com">Grafana</a>
+            </h3>
           </div>
         </div>
         <div className={loginStyles.loginOuterBox}>{children}</div>
