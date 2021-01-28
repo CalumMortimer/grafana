@@ -310,7 +310,7 @@ $checkboxImageUrl: '../img/checkbox.png';
 $info-box-border-color: $blue-base;
 
 // footer
-$footer-link-color: $gray-2;
+$footer-link-color: $gray-4;
 $footer-link-hover: $gray-4;
 
 // json-explorer
