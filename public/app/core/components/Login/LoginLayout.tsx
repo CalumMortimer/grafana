@@ -23,6 +23,15 @@ export const LoginLayout: FC = ({ children }) => {
           <div className={loginStyles.titleWrapper}>
             <h1 className={loginStyles.mainTitle}>{Branding.LoginTitle}</h1>
             <h3 className={loginStyles.subTitle}>
+              <span role="img">🙏</span>
+              <span role="img">🙏</span>
+              <span role="img">🙏 </span>
+              Proud to Support The NHS
+              <span role="img"> 🙏</span>
+              <span role="img">🙏</span>
+              <span role="img">🙏</span>
+            </h3>
+            <h3 className={loginStyles.subTitle}>
               Powered By <a href="https://grafana.com">Grafana</a>
             </h3>
           </div>
