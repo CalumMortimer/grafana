@@ -93,8 +93,8 @@ $text-blue: ${theme.colors.textBlue};
 $text-shadow-faint: none;
 
 // gradients
-$brand-gradient-horizontal: linear-gradient(to right, #f05a28 30%, #fbca0a 99%);
-$brand-gradient-vertical: linear-gradient(#f05a28 30%, #fbca0a 99%);
+$brand-gradient-horizontal: linear-gradient(to right, #5a9d47 30%, #0d784d 99%);
+$brand-gradient-vertical: linear-gradient(#5a9d47 30%, #0d784d 99%);
 
 // Links
 // -------------------------
